@@ -1,0 +1,24 @@
+Frontend
+Desenvolva um site que tenha: 
+- uma tela inicial;
+
+- uma tela para cadastro que solicite o nome do usuário e botão de avançar;
+
+- A próxima tela deve continuar o cadastro solicitando o endereço do usuário, 
+sendo que para cadastrar o endereço ele deve digitar o cep e a tela deve realizar 
+uma consulta na api de CEP (https://viacep.com.br/) e retornar o endereço preenchendo 
+os campos de rua, bairro, cidade, estado, etc. Lembrando que essa tela deve apresentar 
+o nome do usuário digitado na tela anterior, no começo do formulário e botão de avançar;
+
+- A última tela do cadastro deve conter todas as informações para confirmação do usuário 
+no formato de texto e um botão para confirmar;
+
+- Para acessar todas as telas colocar um navbar com as opções;
+
+- Utilizar MUI como biblioteca de componentes;
+
+- Utilizar React;
+
+- Utilizar hooks;
+
+- Apresentar loading em requisições à API;
